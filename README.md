@@ -26,41 +26,57 @@ Jordan Walke, one of Facebook's software engineers, solved this problem by creat
 
 ### Step 2: Verify NodeJS Installation
 - Open command prompt and run this in the terminal:
-`node -v`
+```bash
+node -v
+```
 - The prompt shall display the version you installed.
 
 ### Step 3: Install the CRA package
 
 - Again, in the terminal, run the following command to install create-react-app:
-`npm install -g create-react-app`
+```bash
+npm install -g create-react-app
+```
 - To verify if the installation went well, run the following command:
-`create-react-app --version`
+```bash
+create-react-app --version
+```
 - The prompt shall display the version you installed.
 
 ### Step 4: Create Directory for React Projects
 
 - Create a new folder where you will make your react app through this command:
-`mkdir newfolder` 
+```bash
+mkdir newfolder
+``` 
   **Note:** The *newfolder* is the name of the folder, you can change it.
 - Move into the folder you created through this command:
-`cd newfolder`
+```bash
+cd newfolder
+```
 
 ### Step 5: Create the React App
 
 - Inside the created folder, run the following command and wait for the installation to finish:
-`npx create-react-app reactfirst`
+```bash
+npx create-react-app reactfirst
+```
   **Note:** The app's name must be created using <ins>lowercase letters</ins> only due to npm naming restrictions.
 
 ### Step 6: Open the Project in a Code Editor
 
 - Open the project folder in your chosen IDE. [Visual Studio Code](https://code.visualstudio.com/) is highly recommended.
 - Inside the *newfolder*(example), you will see your app's name *reactfirst*(example). Use the terminal to move inside your app using this command:
-`cd reactfirst`
+```bash
+cd reactfirst
+```
 
 ### Step 7: Run the App!
 
 - Run the following command to start your app:
-`npm start`
+```bash
+npm start
+```
 - A new tab shall open in your browser showing the React logo. From this, you are now ready to build websites and apps through React!
 ![Screenshot of a successful creation of React App.](reactSuccess.png)
 
