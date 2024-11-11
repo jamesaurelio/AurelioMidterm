@@ -61,7 +61,7 @@ cd newfolder
 ```bash
 npx create-react-app reactfirst
 ```
-  **Note:** The app's name must be created using <ins>lowercase letters</ins> only due to npm naming restrictions.
+  <span style="background-color: #000000">**Note:** The app's name must be created using <ins>lowercase letters</ins> only due to npm naming restrictions.</span>
 
 ### Step 6: Open the Project in a Code Editor
 
